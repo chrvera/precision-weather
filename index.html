@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Search for a City:</h2>
+            <input type="text" id="city-input" placeholder="San Diego">
+            <button id="search-button">Search</button>
+            <div class="city-buttons">
+                <button class="city-btn">Atlanta</button>
+                <button class="city-btn">Denver</button>
+                <button class="city-btn">Seattle</button>
+                <button class="city-btn">San Francisco</button>
+                <button class="city-btn">Orlando</button>
+                <button class="city-btn">New York</button>
+                <button class="city-btn">Chicago</button>
+                <button class="city-btn">Austin</button>
+            </div>
+        </div>
+        <div class="main-content">
+            <h1>Precision Weather</h1>
+            <div id="current-weather">
+                <h2 id="city-name">City Name (Date)</h2>
+                <p id="temperature">Temp:</p>
+                <p id="wind">Wind:</p>
+                <p id="humidity">Humidity:</p>
+            </div>
+            <div id="forecast">
+                <h2>5-Day Forecast:</h2>
+                <div id="forecast-cards" class="forecast-cards">
+        
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
